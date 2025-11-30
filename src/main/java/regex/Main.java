@@ -24,13 +24,6 @@ public class Main {
         System.out.println(checkForDoubles(userInput));
     }
 
-    /**
-     * Returns whether a given string is non-empty, contains one lower case letter,
-     * at least one upper case letter, at least one digit, and meets the minimum length.
-     * @param str the string to check for the properties in
-     * @param minLength the minimum length required for the password
-     * @return whether the string satisfies the password requirements
-     */
     public static boolean checkForPassword(String str, int minLength) {
         if (str == null) {
             return false;
